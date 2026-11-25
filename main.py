@@ -18,6 +18,8 @@ ENTRY_TEXT = (
 
 OUTPUT_NAME = "entry.txt"
 
+# Entry is 100 characters — inside the 1–140 gate, every word earning its place.
+
 
 def entry_path() -> str:
     directory = os.environ.get("OUTPUT_DIR", "/output")
